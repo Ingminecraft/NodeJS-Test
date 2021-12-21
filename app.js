@@ -3,8 +3,10 @@ const app = express();
 const debug = require('debug','app');
 const port = 3000;
 const morgan = require('morgan');
+const part = require('path');
 
 app.use(morgan('combined'));
+app.use(express.static(part.join(__dirname,"/public/")))
 
 app.get("/", (req,res) =>{
 

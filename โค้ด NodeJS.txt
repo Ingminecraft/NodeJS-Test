@@ -22,3 +22,7 @@ G:\03_NodeJS_Test> set DEBUG=* & node app.js
     const morgan = require('morgan');
     app.use(morgan('combined'));
 ใช้ในการตรวจสอบคอมผู้ค้นหา
+
+ใช้ Part Html
+    const part = require('path');
+    app.use(express.static(part.join(__dirname,"/public/")))
