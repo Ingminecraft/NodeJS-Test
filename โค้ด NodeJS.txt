@@ -1,0 +1,24 @@
+node = ตรวจสอบการติดตั้ง
+.exit = ออก
+npm install express = ติดตั้ง npm
+npm install express@4.16 = ติดตั้ง npm version 4.16
+
+ดู package.json จะมี Version ถ้าจะเปลี่ยน ให้ลบ } ถึง , หน้า "ICS" แล้วกดติดตั้งใหม่ 
+ 
+npm init = สร้าง npm
+"start":"set DEBUG=app & node app.js", ใต้คำบรรทัด "scripts": { เพื่อใช้งาน CMD พิมพ์แค่ start หรือคำสั่ง set DEBUG=app & node app.js
+"debug":"set DEBUG=* & node app.js", ใต้คำบรรทัด "scripts": { เพื่อใช้งาน CMD พิมพ์แค่ debug หรือคำสั่ง set DEBUG=* & node app.js
+
+npm install ejs = ติดตั้ง Ejs
+
+อยากใช้งาน Cloud ใช้งาน Proen Cloud
+express
+
+ใช้งาน Chalk (Hight ข้อความ) npm install Chalk
+ไปที่ Command promp และเปลี่ยนไดเล็กทรอรี่เป็น โดยพิมพ์เช่น C: , D: , E: เป็นตัน
+G:\03_NodeJS_Test> set DEBUG=* & node app.js
+
+ npm install morgan = ติดตั้ง morgan
+    const morgan = require('morgan');
+    app.use(morgan('combined'));
+ใช้ในการตรวจสอบคอมผู้ค้นหา
